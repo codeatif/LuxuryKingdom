@@ -2,8 +2,8 @@
 //  UIView+Underline.swift
 //  LendMePay
 //
-//  Created by Mannindia on 20/02/18.
-//  Copyright © 2018 mannindia. All rights reserved.
+//  Created by Atif Imran on 20/02/18.
+//  Copyright © 2018 Atif Imran. All rights reserved.
 //
 
 import Foundation

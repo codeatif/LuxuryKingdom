@@ -3,7 +3,7 @@
 //  LendMePay
 //
 //  Created by Atif Imran on 1/17/18.
-//  Copyright © 2018 mannindia. All rights reserved.
+//  Copyright © 2018 Atif Imran. All rights reserved.
 //
 
 import UIKit

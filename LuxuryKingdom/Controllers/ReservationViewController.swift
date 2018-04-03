@@ -2,7 +2,7 @@
 //  ReservationViewController.swift
 //  LuxuryKingdom
 //
-//  Created by Mannindia on 13/03/18.
+//  Created by Atif Imran on 13/03/18.
 //  Copyright © 2018 Aimran. All rights reserved.
 //
 

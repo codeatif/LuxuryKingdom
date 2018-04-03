@@ -2,7 +2,7 @@
 //  LuxuryKingdomTests.swift
 //  LuxuryKingdomTests
 //
-//  Created by Mannindia on 12/03/18.
+//  Created by Atif Imran on 12/03/18.
 //  Copyright © 2018 Aimran. All rights reserved.
 //
 
