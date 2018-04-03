@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41859BF206258180071DF15 /* BookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41859BE206258180071DF15 /* BookingCell.swift */; };
+		A41859C120626BD10071DF15 /* VIPServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41859C020626BD10071DF15 /* VIPServicesViewController.swift */; };
+		A41859C3206275140071DF15 /* VIPPackageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41859C2206275140071DF15 /* VIPPackageCell.xib */; };
+		A41859C52062757F0071DF15 /* VIPPackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41859C42062757F0071DF15 /* VIPPackageCell.swift */; };
+		A41859C72063867F0071DF15 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41859C62063867F0071DF15 /* SettingsViewController.swift */; };
+		A42BF897205683360023885D /* HomeTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BF896205683360023885D /* HomeTableController.swift */; };
+		A42BF89920568B6A0023885D /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BF89820568B6A0023885D /* SidebarViewController.swift */; };
+		A43CD4B5205676D100F8AB10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43CD4B4205676D100F8AB10 /* AppDelegate.swift */; };
+		A43CD4BA205676D100F8AB10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43CD4B8205676D100F8AB10 /* Main.storyboard */; };
+		A43CD4BC205676D100F8AB10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43CD4BB205676D100F8AB10 /* Assets.xcassets */; };
+		A43CD4BF205676D100F8AB10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43CD4BD205676D100F8AB10 /* LaunchScreen.storyboard */; };
+		A43CD4CA205676D100F8AB10 /* LuxuryKingdomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43CD4C9205676D100F8AB10 /* LuxuryKingdomTests.swift */; };
+		A43CD4D5205676D200F8AB10 /* LuxuryKingdomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43CD4D4205676D200F8AB10 /* LuxuryKingdomUITests.swift */; };
+		A44592772056D99300FB9D01 /* JetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44592762056D99300FB9D01 /* JetViewController.swift */; };
+		A44592792056D9A000FB9D01 /* YachtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44592782056D9A000FB9D01 /* YachtViewController.swift */; };
+		A445927B2056D9AC00FB9D01 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445927A2056D9AC00FB9D01 /* CarViewController.swift */; };
+		A445927D2057ACBE00FB9D01 /* CruiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445927C2057ACBE00FB9D01 /* CruiseViewController.swift */; };
+		A445927F2057B39900FB9D01 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445927E2057B39900FB9D01 /* ReservationViewController.swift */; };
+		A44682DC205C40E6004E6BEB /* alexandra_exterior_53722_web.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A44682D7205C40DF004E6BEB /* alexandra_exterior_53722_web.jpeg */; };
+		A44682DD205C40E6004E6BEB /* o-mega_exterior_56030_web.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A44682D8205C40E1004E6BEB /* o-mega_exterior_56030_web.jpeg */; };
+		A44682DE205C40E6004E6BEB /* ypi_yacht_charter_mary_jean_II_exterior_hero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A44682D9205C40E2004E6BEB /* ypi_yacht_charter_mary_jean_II_exterior_hero.jpg */; };
+		A44682DF205C40E6004E6BEB /* ypi_yacht_sale_rl_noor_exterior_hero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A44682DA205C40E3004E6BEB /* ypi_yacht_sale_rl_noor_exterior_hero.jpg */; };
+		A44682E0205C40E6004E6BEB /* quantum_exterior_55399_web.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A44682DB205C40E4004E6BEB /* quantum_exterior_55399_web.jpeg */; };
+		A44682E2205D0228004E6BEB /* ServicesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A44682E1205D0228004E6BEB /* ServicesCell.xib */; };
+		A44682E4205D0C61004E6BEB /* ServicesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44682E3205D0C61004E6BEB /* ServicesCell.swift */; };
+		A475743A2064FF840053D5FF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47574392064FF840053D5FF /* DetailsViewController.swift */; };
+		A47C85802059ACA1006C8C7B /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47C857F2059AC9F006C8C7B /* UIView+Util.swift */; };
+		A47E1ED2205EF20A00E912AF /* ConciergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E1ED1205EF20A00E912AF /* ConciergeViewController.swift */; };
+		A47E1ED6205EF8BE00E912AF /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47E1ED5205EF8BE00E912AF /* LeaderboardViewController.swift */; };
+		A47E1ED8205EFE7A00E912AF /* top_user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47E1ED7205EFE7700E912AF /* top_user.jpg */; };
+		A49FF150205F080200BDA8A0 /* kelly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A49FF14C205F07F800BDA8A0 /* kelly.jpg */; };
+		A49FF151205F080200BDA8A0 /* man.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A49FF14D205F07FA00BDA8A0 /* man.jpeg */; };
+		A49FF152205F080200BDA8A0 /* ahmed.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A49FF14E205F07FD00BDA8A0 /* ahmed.jpeg */; };
+		A49FF153205F080200BDA8A0 /* christy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A49FF14F205F07FF00BDA8A0 /* christy.jpeg */; };
+		A49FF155205F0FBF00BDA8A0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49FF154205F0FBF00BDA8A0 /* ProfileViewController.swift */; };
+		A49FF157205F1BC800BDA8A0 /* AngleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49FF156205F1BC800BDA8A0 /* AngleView.swift */; };
+		A49FF159205F20B000BDA8A0 /* AngleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49FF158205F20B000BDA8A0 /* AngleImageView.swift */; };
+		A49FF15D205F9B4200BDA8A0 /* carbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A49FF15C205F9B3E00BDA8A0 /* carbg.jpg */; };
+		A4C85626205AE67D0044507C /* ServiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C85625205AE67D0044507C /* ServiceDetailsViewController.swift */; };
+		A4EAEE5520621C59001AE65F /* BookingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EAEE5420621C59001AE65F /* BookingsTableViewController.swift */; };
+		A4F9F66B20657810007AE491 /* MarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F9F66A20657810007AE491 /* MarkerView.xib */; };
+		AD7FFE09B4C290ED71562F29 /* Pods_LuxuryKingdomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33C3EE2524EABFDC54F3CB3 /* Pods_LuxuryKingdomUITests.framework */; };
+		D34919A2AD20366560933F30 /* Pods_LuxuryKingdomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6084674A8CDC4C19D0FA9631 /* Pods_LuxuryKingdomTests.framework */; };
+		FBE5B8873F1E70CC1C9A939A /* Pods_LuxuryKingdom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971A7AC166B914202A8B3C07 /* Pods_LuxuryKingdom.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43CD4C6205676D100F8AB10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43CD4A9205676D100F8AB10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43CD4B0205676D100F8AB10;
+			remoteInfo = LuxuryKingdom;
+		};
+		A43CD4D1205676D100F8AB10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A43CD4A9205676D100F8AB10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43CD4B0205676D100F8AB10;
+			remoteInfo = LuxuryKingdom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6084674A8CDC4C19D0FA9631 /* Pods_LuxuryKingdomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuxuryKingdomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F07175CC5A568CCC0EE804 /* Pods-LuxuryKingdom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuxuryKingdom.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuxuryKingdom/Pods-LuxuryKingdom.release.xcconfig"; sourceTree = "<group>"; };
+		93260133624A779616E4A960 /* Pods-LuxuryKingdom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuxuryKingdom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuxuryKingdom/Pods-LuxuryKingdom.debug.xcconfig"; sourceTree = "<group>"; };
+		971A7AC166B914202A8B3C07 /* Pods_LuxuryKingdom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuxuryKingdom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41859BE206258180071DF15 /* BookingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingCell.swift; sourceTree = "<group>"; };
+		A41859C020626BD10071DF15 /* VIPServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPServicesViewController.swift; sourceTree = "<group>"; };
+		A41859C2206275140071DF15 /* VIPPackageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VIPPackageCell.xib; sourceTree = "<group>"; };
+		A41859C42062757F0071DF15 /* VIPPackageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPPackageCell.swift; sourceTree = "<group>"; };
+		A41859C62063867F0071DF15 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A42BF896205683360023885D /* HomeTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableController.swift; sourceTree = "<group>"; };
+		A42BF89820568B6A0023885D /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
+		A43CD4B1205676D100F8AB10 /* LuxuryKingdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuxuryKingdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43CD4B4205676D100F8AB10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A43CD4B9205676D100F8AB10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A43CD4BB205676D100F8AB10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A43CD4BE205676D100F8AB10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A43CD4C0205676D100F8AB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43CD4C5205676D100F8AB10 /* LuxuryKingdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxuryKingdomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43CD4C9205676D100F8AB10 /* LuxuryKingdomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxuryKingdomTests.swift; sourceTree = "<group>"; };
+		A43CD4CB205676D100F8AB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43CD4D0205676D100F8AB10 /* LuxuryKingdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuxuryKingdomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43CD4D4205676D200F8AB10 /* LuxuryKingdomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuxuryKingdomUITests.swift; sourceTree = "<group>"; };
+		A43CD4D6205676D200F8AB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44592762056D99300FB9D01 /* JetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetViewController.swift; sourceTree = "<group>"; };
+		A44592782056D9A000FB9D01 /* YachtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YachtViewController.swift; sourceTree = "<group>"; };
+		A445927A2056D9AC00FB9D01 /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		A445927C2057ACBE00FB9D01 /* CruiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruiseViewController.swift; sourceTree = "<group>"; };
+		A445927E2057B39900FB9D01 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		A44682D7205C40DF004E6BEB /* alexandra_exterior_53722_web.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alexandra_exterior_53722_web.jpeg; sourceTree = "<group>"; };
+		A44682D8205C40E1004E6BEB /* o-mega_exterior_56030_web.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "o-mega_exterior_56030_web.jpeg"; sourceTree = "<group>"; };
+		A44682D9205C40E2004E6BEB /* ypi_yacht_charter_mary_jean_II_exterior_hero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ypi_yacht_charter_mary_jean_II_exterior_hero.jpg; sourceTree = "<group>"; };
+		A44682DA205C40E3004E6BEB /* ypi_yacht_sale_rl_noor_exterior_hero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ypi_yacht_sale_rl_noor_exterior_hero.jpg; sourceTree = "<group>"; };
+		A44682DB205C40E4004E6BEB /* quantum_exterior_55399_web.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quantum_exterior_55399_web.jpeg; sourceTree = "<group>"; };
+		A44682E1205D0228004E6BEB /* ServicesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServicesCell.xib; sourceTree = "<group>"; };
+		A44682E3205D0C61004E6BEB /* ServicesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesCell.swift; sourceTree = "<group>"; };
+		A47574392064FF840053D5FF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A47C857F2059AC9F006C8C7B /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		A47E1ED1205EF20A00E912AF /* ConciergeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciergeViewController.swift; sourceTree = "<group>"; };
+		A47E1ED5205EF8BE00E912AF /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		A47E1ED7205EFE7700E912AF /* top_user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top_user.jpg; sourceTree = "<group>"; };
+		A49FF14C205F07F800BDA8A0 /* kelly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kelly.jpg; sourceTree = "<group>"; };
+		A49FF14D205F07FA00BDA8A0 /* man.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = man.jpeg; sourceTree = "<group>"; };
+		A49FF14E205F07FD00BDA8A0 /* ahmed.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ahmed.jpeg; sourceTree = "<group>"; };
+		A49FF14F205F07FF00BDA8A0 /* christy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = christy.jpeg; sourceTree = "<group>"; };
+		A49FF154205F0FBF00BDA8A0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A49FF156205F1BC800BDA8A0 /* AngleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleView.swift; sourceTree = "<group>"; };
+		A49FF158205F20B000BDA8A0 /* AngleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleImageView.swift; sourceTree = "<group>"; };
+		A49FF15C205F9B3E00BDA8A0 /* carbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carbg.jpg; sourceTree = "<group>"; };
+		A4C85625205AE67D0044507C /* ServiceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailsViewController.swift; sourceTree = "<group>"; };
+		A4EAEE5420621C59001AE65F /* BookingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsTableViewController.swift; sourceTree = "<group>"; };
+		A4F9F66A20657810007AE491 /* MarkerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarkerView.xib; sourceTree = "<group>"; };
+		C33C3EE2524EABFDC54F3CB3 /* Pods_LuxuryKingdomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuxuryKingdomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6034013AB1C40172139AD06 /* Pods-LuxuryKingdomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuxuryKingdomUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuxuryKingdomUITests/Pods-LuxuryKingdomUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD21693AD99312DD8FBB005C /* Pods-LuxuryKingdomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuxuryKingdomUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuxuryKingdomUITests/Pods-LuxuryKingdomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF396C762B8682700D4CF826 /* Pods-LuxuryKingdomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuxuryKingdomTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuxuryKingdomTests/Pods-LuxuryKingdomTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4CDD27C9824F5ED820B2D4E /* Pods-LuxuryKingdomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuxuryKingdomTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuxuryKingdomTests/Pods-LuxuryKingdomTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A43CD4AE205676D100F8AB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE5B8873F1E70CC1C9A939A /* Pods_LuxuryKingdom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43CD4C2205676D100F8AB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34919A2AD20366560933F30 /* Pods_LuxuryKingdomTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43CD4CD205676D100F8AB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7FFE09B4C290ED71562F29 /* Pods_LuxuryKingdomUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98D408AB88712957554EBD10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93260133624A779616E4A960 /* Pods-LuxuryKingdom.debug.xcconfig */,
+				65F07175CC5A568CCC0EE804 /* Pods-LuxuryKingdom.release.xcconfig */,
+				F4CDD27C9824F5ED820B2D4E /* Pods-LuxuryKingdomTests.debug.xcconfig */,
+				EF396C762B8682700D4CF826 /* Pods-LuxuryKingdomTests.release.xcconfig */,
+				CD21693AD99312DD8FBB005C /* Pods-LuxuryKingdomUITests.debug.xcconfig */,
+				C6034013AB1C40172139AD06 /* Pods-LuxuryKingdomUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A41859BD206257DB0071DF15 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A41859BE206258180071DF15 /* BookingCell.swift */,
+				A44682E3205D0C61004E6BEB /* ServicesCell.swift */,
+				A41859C42062757F0071DF15 /* VIPPackageCell.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A43CD4A8205676D100F8AB10 = {
+			isa = PBXGroup;
+			children = (
+				A43CD4B3205676D100F8AB10 /* LuxuryKingdom */,
+				A43CD4C8205676D100F8AB10 /* LuxuryKingdomTests */,
+				A43CD4D3205676D100F8AB10 /* LuxuryKingdomUITests */,
+				A43CD4B2205676D100F8AB10 /* Products */,
+				98D408AB88712957554EBD10 /* Pods */,
+				B33B5622927BEC796C914061 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A43CD4B2205676D100F8AB10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A43CD4B1205676D100F8AB10 /* LuxuryKingdom.app */,
+				A43CD4C5205676D100F8AB10 /* LuxuryKingdomTests.xctest */,
+				A43CD4D0205676D100F8AB10 /* LuxuryKingdomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A43CD4B3205676D100F8AB10 /* LuxuryKingdom */ = {
+			isa = PBXGroup;
+			children = (
+				A41859BD206257DB0071DF15 /* Entities */,
+				A47E1EDC205F033700E912AF /* Network */,
+				A47E1EDB205F032A00E912AF /* Util */,
+				A44682D6205C40CC004E6BEB /* Images */,
+				A47E1EDA205F030700E912AF /* Controllers */,
+				A47E1ED9205F02F200E912AF /* XIB */,
+				A43CD4B4205676D100F8AB10 /* AppDelegate.swift */,
+				A43CD4BB205676D100F8AB10 /* Assets.xcassets */,
+				A43CD4C0205676D100F8AB10 /* Info.plist */,
+			);
+			path = LuxuryKingdom;
+			sourceTree = "<group>";
+		};
+		A43CD4C8205676D100F8AB10 /* LuxuryKingdomTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43CD4C9205676D100F8AB10 /* LuxuryKingdomTests.swift */,
+				A43CD4CB205676D100F8AB10 /* Info.plist */,
+			);
+			path = LuxuryKingdomTests;
+			sourceTree = "<group>";
+		};
+		A43CD4D3205676D100F8AB10 /* LuxuryKingdomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A43CD4D4205676D200F8AB10 /* LuxuryKingdomUITests.swift */,
+				A43CD4D6205676D200F8AB10 /* Info.plist */,
+			);
+			path = LuxuryKingdomUITests;
+			sourceTree = "<group>";
+		};
+		A44682D6205C40CC004E6BEB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A49FF15C205F9B3E00BDA8A0 /* carbg.jpg */,
+				A49FF14E205F07FD00BDA8A0 /* ahmed.jpeg */,
+				A49FF14F205F07FF00BDA8A0 /* christy.jpeg */,
+				A49FF14C205F07F800BDA8A0 /* kelly.jpg */,
+				A49FF14D205F07FA00BDA8A0 /* man.jpeg */,
+				A47E1ED7205EFE7700E912AF /* top_user.jpg */,
+				A44682D7205C40DF004E6BEB /* alexandra_exterior_53722_web.jpeg */,
+				A44682D8205C40E1004E6BEB /* o-mega_exterior_56030_web.jpeg */,
+				A44682DB205C40E4004E6BEB /* quantum_exterior_55399_web.jpeg */,
+				A44682D9205C40E2004E6BEB /* ypi_yacht_charter_mary_jean_II_exterior_hero.jpg */,
+				A44682DA205C40E3004E6BEB /* ypi_yacht_sale_rl_noor_exterior_hero.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A47E1ED9205F02F200E912AF /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				A43CD4BD205676D100F8AB10 /* LaunchScreen.storyboard */,
+				A43CD4B8205676D100F8AB10 /* Main.storyboard */,
+				A44682E1205D0228004E6BEB /* ServicesCell.xib */,
+				A41859C2206275140071DF15 /* VIPPackageCell.xib */,
+				A4F9F66A20657810007AE491 /* MarkerView.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		A47E1EDA205F030700E912AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAEE5420621C59001AE65F /* BookingsTableViewController.swift */,
+				A445927A2056D9AC00FB9D01 /* CarViewController.swift */,
+				A47E1ED1205EF20A00E912AF /* ConciergeViewController.swift */,
+				A445927C2057ACBE00FB9D01 /* CruiseViewController.swift */,
+				A47574392064FF840053D5FF /* DetailsViewController.swift */,
+				A42BF896205683360023885D /* HomeTableController.swift */,
+				A44592762056D99300FB9D01 /* JetViewController.swift */,
+				A47E1ED5205EF8BE00E912AF /* LeaderboardViewController.swift */,
+				A49FF154205F0FBF00BDA8A0 /* ProfileViewController.swift */,
+				A445927E2057B39900FB9D01 /* ReservationViewController.swift */,
+				A4C85625205AE67D0044507C /* ServiceDetailsViewController.swift */,
+				A41859C62063867F0071DF15 /* SettingsViewController.swift */,
+				A42BF89820568B6A0023885D /* SidebarViewController.swift */,
+				A41859C020626BD10071DF15 /* VIPServicesViewController.swift */,
+				A44592782056D9A000FB9D01 /* YachtViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A47E1EDB205F032A00E912AF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A49FF158205F20B000BDA8A0 /* AngleImageView.swift */,
+				A49FF156205F1BC800BDA8A0 /* AngleView.swift */,
+				A47C857F2059AC9F006C8C7B /* UIView+Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A47E1EDC205F033700E912AF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B33B5622927BEC796C914061 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				971A7AC166B914202A8B3C07 /* Pods_LuxuryKingdom.framework */,
+				6084674A8CDC4C19D0FA9631 /* Pods_LuxuryKingdomTests.framework */,
+				C33C3EE2524EABFDC54F3CB3 /* Pods_LuxuryKingdomUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A43CD4B0205676D100F8AB10 /* LuxuryKingdom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43CD4D9205676D200F8AB10 /* Build configuration list for PBXNativeTarget "LuxuryKingdom" */;
+			buildPhases = (
+				8A21625BEC692CC825D21645 /* [CP] Check Pods Manifest.lock */,
+				A43CD4AD205676D100F8AB10 /* Sources */,
+				A43CD4AE205676D100F8AB10 /* Frameworks */,
+				A43CD4AF205676D100F8AB10 /* Resources */,
+				35E6E29F52672158B5CA184C /* [CP] Embed Pods Frameworks */,
+				CC7CCB17F14507689B17387F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuxuryKingdom;
+			productName = LuxuryKingdom;
+			productReference = A43CD4B1205676D100F8AB10 /* LuxuryKingdom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A43CD4C4205676D100F8AB10 /* LuxuryKingdomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43CD4DC205676D200F8AB10 /* Build configuration list for PBXNativeTarget "LuxuryKingdomTests" */;
+			buildPhases = (
+				9938E105395B24C43B101434 /* [CP] Check Pods Manifest.lock */,
+				A43CD4C1205676D100F8AB10 /* Sources */,
+				A43CD4C2205676D100F8AB10 /* Frameworks */,
+				A43CD4C3205676D100F8AB10 /* Resources */,
+				1A82908B71B4D498D93B8DD6 /* [CP] Embed Pods Frameworks */,
+				9ED004F16406C1A7E43C73F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43CD4C7205676D100F8AB10 /* PBXTargetDependency */,
+			);
+			name = LuxuryKingdomTests;
+			productName = LuxuryKingdomTests;
+			productReference = A43CD4C5205676D100F8AB10 /* LuxuryKingdomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A43CD4CF205676D100F8AB10 /* LuxuryKingdomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43CD4DF205676D200F8AB10 /* Build configuration list for PBXNativeTarget "LuxuryKingdomUITests" */;
+			buildPhases = (
+				38049D2D7C87F897EB076934 /* [CP] Check Pods Manifest.lock */,
+				A43CD4CC205676D100F8AB10 /* Sources */,
+				A43CD4CD205676D100F8AB10 /* Frameworks */,
+				A43CD4CE205676D100F8AB10 /* Resources */,
+				EA077DC52AC6C021D9B509A6 /* [CP] Embed Pods Frameworks */,
+				C1EEDC5BBD1172CEDA96A71E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A43CD4D2205676D100F8AB10 /* PBXTargetDependency */,
+			);
+			name = LuxuryKingdomUITests;
+			productName = LuxuryKingdomUITests;
+			productReference = A43CD4D0205676D100F8AB10 /* LuxuryKingdomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A43CD4A9205676D100F8AB10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Aimran;
+				TargetAttributes = {
+					A43CD4B0205676D100F8AB10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A43CD4C4205676D100F8AB10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A43CD4B0205676D100F8AB10;
+					};
+					A43CD4CF205676D100F8AB10 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A43CD4B0205676D100F8AB10;
+					};
+				};
+			};
+			buildConfigurationList = A43CD4AC205676D100F8AB10 /* Build configuration list for PBXProject "LuxuryKingdom" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A43CD4A8205676D100F8AB10;
+			productRefGroup = A43CD4B2205676D100F8AB10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43CD4B0205676D100F8AB10 /* LuxuryKingdom */,
+				A43CD4C4205676D100F8AB10 /* LuxuryKingdomTests */,
+				A43CD4CF205676D100F8AB10 /* LuxuryKingdomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A43CD4AF205676D100F8AB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43CD4BF205676D100F8AB10 /* LaunchScreen.storyboard in Resources */,
+				A43CD4BC205676D100F8AB10 /* Assets.xcassets in Resources */,
+				A49FF152205F080200BDA8A0 /* ahmed.jpeg in Resources */,
+				A49FF15D205F9B4200BDA8A0 /* carbg.jpg in Resources */,
+				A47E1ED8205EFE7A00E912AF /* top_user.jpg in Resources */,
+				A49FF150205F080200BDA8A0 /* kelly.jpg in Resources */,
+				A44682E0205C40E6004E6BEB /* quantum_exterior_55399_web.jpeg in Resources */,
+				A49FF153205F080200BDA8A0 /* christy.jpeg in Resources */,
+				A43CD4BA205676D100F8AB10 /* Main.storyboard in Resources */,
+				A44682DC205C40E6004E6BEB /* alexandra_exterior_53722_web.jpeg in Resources */,
+				A4F9F66B20657810007AE491 /* MarkerView.xib in Resources */,
+				A44682DF205C40E6004E6BEB /* ypi_yacht_sale_rl_noor_exterior_hero.jpg in Resources */,
+				A49FF151205F080200BDA8A0 /* man.jpeg in Resources */,
+				A44682E2205D0228004E6BEB /* ServicesCell.xib in Resources */,
+				A44682DD205C40E6004E6BEB /* o-mega_exterior_56030_web.jpeg in Resources */,
+				A41859C3206275140071DF15 /* VIPPackageCell.xib in Resources */,
+				A44682DE205C40E6004E6BEB /* ypi_yacht_charter_mary_jean_II_exterior_hero.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43CD4C3205676D100F8AB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43CD4CE205676D100F8AB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A82908B71B4D498D93B8DD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuxuryKingdomTests/Pods-LuxuryKingdomTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35E6E29F52672158B5CA184C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LuxuryKingdom/Pods-LuxuryKingdom-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GMStepper/GMStepper.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GMStepper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuxuryKingdom/Pods-LuxuryKingdom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38049D2D7C87F897EB076934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuxuryKingdomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A21625BEC692CC825D21645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuxuryKingdom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9938E105395B24C43B101434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuxuryKingdomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED004F16406C1A7E43C73F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuxuryKingdomTests/Pods-LuxuryKingdomTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1EEDC5BBD1172CEDA96A71E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuxuryKingdomUITests/Pods-LuxuryKingdomUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7CCB17F14507689B17387F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LuxuryKingdom/Pods-LuxuryKingdom-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuxuryKingdom/Pods-LuxuryKingdom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA077DC52AC6C021D9B509A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LuxuryKingdomUITests/Pods-LuxuryKingdomUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A43CD4AD205676D100F8AB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EAEE5520621C59001AE65F /* BookingsTableViewController.swift in Sources */,
+				A44592792056D9A000FB9D01 /* YachtViewController.swift in Sources */,
+				A41859C72063867F0071DF15 /* SettingsViewController.swift in Sources */,
+				A475743A2064FF840053D5FF /* DetailsViewController.swift in Sources */,
+				A43CD4B5205676D100F8AB10 /* AppDelegate.swift in Sources */,
+				A47E1ED6205EF8BE00E912AF /* LeaderboardViewController.swift in Sources */,
+				A47E1ED2205EF20A00E912AF /* ConciergeViewController.swift in Sources */,
+				A49FF159205F20B000BDA8A0 /* AngleImageView.swift in Sources */,
+				A49FF155205F0FBF00BDA8A0 /* ProfileViewController.swift in Sources */,
+				A445927B2056D9AC00FB9D01 /* CarViewController.swift in Sources */,
+				A445927F2057B39900FB9D01 /* ReservationViewController.swift in Sources */,
+				A42BF897205683360023885D /* HomeTableController.swift in Sources */,
+				A49FF157205F1BC800BDA8A0 /* AngleView.swift in Sources */,
+				A4C85626205AE67D0044507C /* ServiceDetailsViewController.swift in Sources */,
+				A42BF89920568B6A0023885D /* SidebarViewController.swift in Sources */,
+				A445927D2057ACBE00FB9D01 /* CruiseViewController.swift in Sources */,
+				A44682E4205D0C61004E6BEB /* ServicesCell.swift in Sources */,
+				A47C85802059ACA1006C8C7B /* UIView+Util.swift in Sources */,
+				A44592772056D99300FB9D01 /* JetViewController.swift in Sources */,
+				A41859BF206258180071DF15 /* BookingCell.swift in Sources */,
+				A41859C52062757F0071DF15 /* VIPPackageCell.swift in Sources */,
+				A41859C120626BD10071DF15 /* VIPServicesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43CD4C1205676D100F8AB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43CD4CA205676D100F8AB10 /* LuxuryKingdomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43CD4CC205676D100F8AB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43CD4D5205676D200F8AB10 /* LuxuryKingdomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A43CD4C7205676D100F8AB10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43CD4B0205676D100F8AB10 /* LuxuryKingdom */;
+			targetProxy = A43CD4C6205676D100F8AB10 /* PBXContainerItemProxy */;
+		};
+		A43CD4D2205676D100F8AB10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A43CD4B0205676D100F8AB10 /* LuxuryKingdom */;
+			targetProxy = A43CD4D1205676D100F8AB10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A43CD4B8205676D100F8AB10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43CD4B9205676D100F8AB10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A43CD4BD205676D100F8AB10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A43CD4BE205676D100F8AB10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A43CD4D7205676D200F8AB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A43CD4D8205676D200F8AB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A43CD4DA205676D200F8AB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93260133624A779616E4A960 /* Pods-LuxuryKingdom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuxuryKingdom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimran.KingdomLuxury;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A43CD4DB205676D200F8AB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F07175CC5A568CCC0EE804 /* Pods-LuxuryKingdom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuxuryKingdom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimran.KingdomLuxury;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A43CD4DD205676D200F8AB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CDD27C9824F5ED820B2D4E /* Pods-LuxuryKingdomTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuxuryKingdomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimran.LuxuryKingdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuxuryKingdom.app/LuxuryKingdom";
+			};
+			name = Debug;
+		};
+		A43CD4DE205676D200F8AB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF396C762B8682700D4CF826 /* Pods-LuxuryKingdomTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuxuryKingdomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimran.LuxuryKingdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuxuryKingdom.app/LuxuryKingdom";
+			};
+			name = Release;
+		};
+		A43CD4E0205676D200F8AB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD21693AD99312DD8FBB005C /* Pods-LuxuryKingdomUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuxuryKingdomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimran.LuxuryKingdomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuxuryKingdom;
+			};
+			name = Debug;
+		};
+		A43CD4E1205676D200F8AB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6034013AB1C40172139AD06 /* Pods-LuxuryKingdomUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuxuryKingdomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aimran.LuxuryKingdomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuxuryKingdom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A43CD4AC205676D100F8AB10 /* Build configuration list for PBXProject "LuxuryKingdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43CD4D7205676D200F8AB10 /* Debug */,
+				A43CD4D8205676D200F8AB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43CD4D9205676D200F8AB10 /* Build configuration list for PBXNativeTarget "LuxuryKingdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43CD4DA205676D200F8AB10 /* Debug */,
+				A43CD4DB205676D200F8AB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43CD4DC205676D200F8AB10 /* Build configuration list for PBXNativeTarget "LuxuryKingdomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43CD4DD205676D200F8AB10 /* Debug */,
+				A43CD4DE205676D200F8AB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43CD4DF205676D200F8AB10 /* Build configuration list for PBXNativeTarget "LuxuryKingdomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43CD4E0205676D200F8AB10 /* Debug */,
+				A43CD4E1205676D200F8AB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A43CD4A9205676D100F8AB10 /* Project object */;
+}

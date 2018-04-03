@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangHK-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ServicesCell" id="xYT-GU-mbP" customClass="ServicesCell" customModule="LuxuryKingdom" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="250" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qJu-Im-fKH">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="200"/>
+                        <subviews>
+                            <view tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="enz-bo-IC3">
+                                <rect key="frame" x="8" y="8" width="232" height="184"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PrivateCar" translatesAutoresizingMaskIntoConstraints="NO" id="NVb-g5-G8x">
+                                        <rect key="frame" x="0.0" y="0.0" width="232" height="184"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="184" id="IgK-Q9-o8S"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LUXURY CAR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ui8-Ve-9gk">
+                                        <rect key="frame" x="0.0" y="146" width="232" height="38"/>
+                                        <color key="backgroundColor" red="0.16078431372549021" green="0.15686274509803921" blue="0.16862745098039217" alpha="0.69897117077464788" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="11"/>
+                                        <color key="textColor" name="ContrastWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="BlackBackground"/>
+                                <constraints>
+                                    <constraint firstItem="NVb-g5-G8x" firstAttribute="top" secondItem="enz-bo-IC3" secondAttribute="top" id="2Wa-2J-j8Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="ui8-Ve-9gk" secondAttribute="trailing" id="Nh9-uw-Day"/>
+                                    <constraint firstAttribute="bottom" secondItem="NVb-g5-G8x" secondAttribute="bottom" id="OhC-df-ihx"/>
+                                    <constraint firstItem="ui8-Ve-9gk" firstAttribute="leading" secondItem="enz-bo-IC3" secondAttribute="leading" id="bES-4P-tXf"/>
+                                    <constraint firstItem="NVb-g5-G8x" firstAttribute="leading" secondItem="enz-bo-IC3" secondAttribute="leading" id="bPa-FN-JIJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="NVb-g5-G8x" secondAttribute="trailing" id="crJ-UN-iqs"/>
+                                    <constraint firstItem="ui8-Ve-9gk" firstAttribute="top" secondItem="enz-bo-IC3" secondAttribute="top" constant="146" id="qd0-Os-10r"/>
+                                    <constraint firstAttribute="bottom" secondItem="ui8-Ve-9gk" secondAttribute="bottom" id="uoA-Lv-gfa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" name="BlackBackground"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="4gj-5D-M8T"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="E8J-wn-2QH"/>
+                            <constraint firstAttribute="trailing" secondItem="enz-bo-IC3" secondAttribute="trailing" constant="10" id="K8k-9R-CXR"/>
+                            <constraint firstItem="enz-bo-IC3" firstAttribute="leading" secondItem="qJu-Im-fKH" secondAttribute="leading" constant="8" id="U6O-2U-2xa"/>
+                            <constraint firstAttribute="bottom" secondItem="enz-bo-IC3" secondAttribute="bottom" constant="8" id="WTM-Lq-qOy"/>
+                            <constraint firstItem="enz-bo-IC3" firstAttribute="top" secondItem="qJu-Im-fKH" secondAttribute="top" constant="8" id="X8O-kg-NBN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qJu-Im-fKH" secondAttribute="trailing" id="6hD-dy-Dpk"/>
+                <constraint firstItem="qJu-Im-fKH" firstAttribute="leading" secondItem="xYT-GU-mbP" secondAttribute="leading" id="Bgd-RP-Btk"/>
+                <constraint firstAttribute="bottom" secondItem="qJu-Im-fKH" secondAttribute="bottom" id="CqR-2d-nNa"/>
+                <constraint firstItem="qJu-Im-fKH" firstAttribute="top" secondItem="xYT-GU-mbP" secondAttribute="top" id="dr8-xW-sZj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="dAp-Mo-a7P"/>
+            <size key="customSize" width="230" height="200"/>
+            <connections>
+                <outlet property="serviceIcon" destination="NVb-g5-G8x" id="2Kx-0z-ACx"/>
+                <outlet property="serviceName" destination="ui8-Ve-9gk" id="Ut9-73-GtH"/>
+                <outlet property="widthConstraint" destination="E8J-wn-2QH" id="SUx-Uj-OMM"/>
+            </connections>
+            <point key="canvasLocation" x="217" y="-132"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="PrivateCar" width="1768" height="995"/>
+        <namedColor name="BlackBackground">
+            <color red="0.16078431372549021" green="0.15686274509803921" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ContrastWhite">
+            <color red="0.93333333333333335" green="0.92941176470588238" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

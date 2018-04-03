@@ -1,0 +1,6 @@
+framework module Pods_LuxuryKingdom {
+  umbrella header "Pods-LuxuryKingdom-umbrella.h"
+
+  export *
+  module * { export * }
+}
