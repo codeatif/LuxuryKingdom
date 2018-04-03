@@ -5,7 +5,7 @@ This app is a skeleton of the UI/UX of my new luxury services application.
 
 NB: The images used in the app are the copyright of their owners and have been added just as a representation.
 
-
+<img src="https://github.com/codeatif/LuxuryKingdom/blob/master/screenshots/1.png" width="375">
 ![](https://github.com/codeatif/LuxuryKingdom/blob/master/screenshots/1.png =375x812)
 ![](https://github.com/codeatif/LuxuryKingdom/blob/master/screenshots/2.png =375x812)
 ![](https://github.com/codeatif/LuxuryKingdom/blob/master/screenshots/3.png =375x812)
