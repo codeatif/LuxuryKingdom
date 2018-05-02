@@ -12,6 +12,7 @@
 		A41859C3206275140071DF15 /* VIPPackageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41859C2206275140071DF15 /* VIPPackageCell.xib */; };
 		A41859C52062757F0071DF15 /* VIPPackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41859C42062757F0071DF15 /* VIPPackageCell.swift */; };
 		A41859C72063867F0071DF15 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41859C62063867F0071DF15 /* SettingsViewController.swift */; };
+		A42009BC2074DE5400B8DFD1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42009BB2074DE5400B8DFD1 /* NetworkManager.swift */; };
 		A42BF897205683360023885D /* HomeTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BF896205683360023885D /* HomeTableController.swift */; };
 		A42BF89920568B6A0023885D /* SidebarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42BF89820568B6A0023885D /* SidebarViewController.swift */; };
 		A43CD4B5205676D100F8AB10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43CD4B4205676D100F8AB10 /* AppDelegate.swift */; };
@@ -80,6 +81,7 @@
 		A41859C2206275140071DF15 /* VIPPackageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VIPPackageCell.xib; sourceTree = "<group>"; };
 		A41859C42062757F0071DF15 /* VIPPackageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPPackageCell.swift; sourceTree = "<group>"; };
 		A41859C62063867F0071DF15 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A42009BB2074DE5400B8DFD1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A42BF896205683360023885D /* HomeTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableController.swift; sourceTree = "<group>"; };
 		A42BF89820568B6A0023885D /* SidebarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewController.swift; sourceTree = "<group>"; };
 		A43CD4B1205676D100F8AB10 /* LuxuryKingdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuxuryKingdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -301,6 +303,7 @@
 		A47E1EDC205F033700E912AF /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				A42009BB2074DE5400B8DFD1 /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -631,6 +634,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42009BC2074DE5400B8DFD1 /* NetworkManager.swift in Sources */,
 				A4EAEE5520621C59001AE65F /* BookingsTableViewController.swift in Sources */,
 				A44592792056D9A000FB9D01 /* YachtViewController.swift in Sources */,
 				A41859C72063867F0071DF15 /* SettingsViewController.swift in Sources */,
