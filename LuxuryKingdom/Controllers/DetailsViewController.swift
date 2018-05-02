@@ -149,25 +149,18 @@ class DetailsViewController: UIViewController, CLLocationManagerDelegate, GMSMap
             (data, response, error) in
             if error != nil {
                 print(error!.localizedDescription)
-                
             }
             else {
                 do {
                     if let json : [String:Any] = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? [String: Any]{
                         
-                        guard let routes = json["routes"] as? NSArray else {
-                            DispatchQueue.main.async {
-                                
-                            }
-                            return
-                        }
+                        guard let routes = json["routes"] as? NSArray else { return }
                         
                         if (routes.count > 0) {
                             let overview_polyline = routes[0] as? NSDictionary
                             let dictPolyline = overview_polyline?["overview_polyline"] as? NSDictionary
                             
                             let points = dictPolyline?.object(forKey: "points") as? String
-                            
                             
                             DispatchQueue.main.async {
                                 self.showPath(polyStr: points!)
@@ -176,18 +169,10 @@ class DetailsViewController: UIViewController, CLLocationManagerDelegate, GMSMap
                                 self.mapView.moveCamera(update)
                             }
                         }
-                        else {
-                            DispatchQueue.main.async {
-                                
-                            }
-                        }
                     }
                 }
                 catch {
                     print("error in JSONSerialization")
-                    DispatchQueue.main.async {
-                        
-                    }
                 }
             }
         })
